@@ -1,0 +1,10 @@
+To assemble the code follow the instructions:
+
+You will need to assemble the bootloader.asm with nasm(Reference -4). $ nasm bootloader.asm
+After it assembles it will create a binary file. Type the command “ls” on the command prompt to see the created binary file.
+Next step is to copy the binary file in a virtual floppy disk. $ dd if=bootloader of=floppy.img bs=512
+After creating the virtual floppy as floppy.img. Open virtualbox and create a machine.
+After creating the virtual machine. Right click on the virtual machine you created and select settings.
+Click on storage. Then click on floppy controller from the icons.
+Now click on choose disk button to add the floppy image, you created.
+You have now added the floppy disk to the system. You can now start the machine to see you minimal bootloader.
