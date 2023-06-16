@@ -1,7 +1,7 @@
 # Hobby-OS
-Planning to build my own hobby os.
+Built my own hobby os.
 
-Initially I have already built a bootloader [from my 
+Initially, I have already built a bootloader [from my 
 blog](https://monthlywrap.blogspot.com/2021/01/design-and-development-of-os-for.html).
 
 References:
